@@ -34,4 +34,35 @@ public class StudentService {
         return exists;
 
     }
+
+    public Student[] findAllStudent() {
+        //调用库管对象的findAllStudent获取学生对象数组
+        //判断数组中是否有学生信息（有：返回地址，  没有：返回null）
+        Student[] allStudent = stud.findAllStudent();
+        //数组中只要存在一个不是null的元素，那就代表有学生信息
+        boolean flag = false;
+        for (int i = 0; i < allStudent.length; i++) {
+            Student stu = allStudent[i];
+            if(stu != null)
+            {
+                flag = true;
+                break;
+            }
+        }
+        if (flag){
+            return allStudent;
+        }else {
+            return null;
+        }
+
+        }
+
+    public void delStudentById(String delId) {
+        stud.delStudentById(delId);
+    }
+
+    public void updateStudent(String upId, Student newStu) {
+        stud.updateStudent(upId,newStu);
+
+    }
 }

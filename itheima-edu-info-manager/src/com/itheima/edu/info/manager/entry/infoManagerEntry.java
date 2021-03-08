@@ -1,6 +1,6 @@
 package com.itheima.edu.info.manager.entry;
-
 import com.itheima.edu.info.manager.controller.StudentController;
+import com.itheima.edu.info.manager.controller.TeacherController;
 
 import javax.sound.midi.Soundbank;
 import java.util.Scanner;
@@ -24,6 +24,9 @@ public class infoManagerEntry {
                     break;
                 case "2":
                     System.out.println("老师管理");
+                    TeacherController teacherController = new TeacherController();
+                    teacherController.start();
+
                     break;//break只能跳出一层，也就是当前的switch
                 case "3":
                     System.out.println("感谢您的使用");
@@ -39,4 +42,5 @@ public class infoManagerEntry {
 
 
     }
+
 }
