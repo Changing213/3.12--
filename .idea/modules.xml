@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestInterface/TestInterface.iml" filepath="$PROJECT_DIR$/TestInterface/TestInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_innerclass/Test_innerclass.iml" filepath="$PROJECT_DIR$/Test_innerclass/Test_innerclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filemodule/filemodule.iml" filepath="$PROJECT_DIR$/filemodule/filemodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/itheima-edu-info-manager/itheima-edu-info-manager.iml" filepath="$PROJECT_DIR$/itheima-edu-info-manager/itheima-edu-info-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycollection/mycollection.iml" filepath="$PROJECT_DIR$/mycollection/mycollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-abstract/test-abstract.iml" filepath="$PROJECT_DIR$/test-abstract/test-abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-polymorpic/test-polymorpic.iml" filepath="$PROJECT_DIR$/test-polymorpic/test-polymorpic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-polymorpic/test_innerclass.iml" filepath="$PROJECT_DIR$/test-polymorpic/test_innerclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_lambda/test_lambda.iml" filepath="$PROJECT_DIR$/test_lambda/test_lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_static/test_static.iml" filepath="$PROJECT_DIR$/test_static/test_static.iml" />
     </modules>
   </component>
