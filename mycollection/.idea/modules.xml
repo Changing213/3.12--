@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Myset/Myset.iml" filepath="$PROJECT_DIR$/../Myset/Myset.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycollection.iml" filepath="$PROJECT_DIR$/mycollection.iml" />
     </modules>
   </component>
